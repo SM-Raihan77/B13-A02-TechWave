@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* 
+#inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  background-color:background: rgba(26, 11, 46, 1);
+} */
+body{
+   background-color:rgba(26, 11, 46, 1);
+   color: #FFFFFF;
+}
+
+
+
+
+/* navbar design */
+
+nav{
+   
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+nav>p{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 200px;
+}
+
+/* logo */
+.white-color{
+    color: #FFFFFF;
+}
+.gradient-color{
+
+    color: #ff00cc;
+
+}
+nav div{
+   
+    display: flex;
+    gap: 47px;
+    align-items:center;
+     cursor: pointer;
+
+}
+
+.Subscribe-btn{
+  padding: 14px 28px;
+  border: none;
+  border-radius: 100px;
+  background: linear-gradient(135deg, #ffcc00, #ff00cc);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+margin-right: 200px;
+
+}

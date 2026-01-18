@@ -6,20 +6,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 
 
 
 
-/* 
-#inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  background-color:background: rgba(26, 11, 46, 1);
-} */
 body{
    background-color:rgba(26, 11, 46, 1);
    color: #FFFFFF;
@@ -44,6 +37,7 @@ nav>p{
     font-size: 3rem;
     font-weight: 900;
     margin-left: 200px;
+    margin-top: 16px;
 }
 
 /* logo */
@@ -61,6 +55,8 @@ nav div{
     gap: 47px;
     align-items:center;
      cursor: pointer;
+     justify-content: center;
+     margin-top: 16px;
 
 }
 
@@ -74,5 +70,6 @@ nav div{
   font-weight: 500;
   cursor: pointer;
 margin-right: 200px;
+margin-top: 16px;
 
 }

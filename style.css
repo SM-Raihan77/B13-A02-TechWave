@@ -519,6 +519,10 @@ nav>h1{
 
 }
 
+.podcast-text h1{
+  text-align: center;
+}
+
 
 .podcast-text>p{
     margin: 16px 2%;
